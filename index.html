@@ -4,18 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
 
     <link rel="stylesheet" type="text/css" href="styles.css">
 
@@ -23,11 +26,11 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg fixed-top bg-white">
+    <nav class="navbar navbar-expand-lg bg-white">
         <div class="container rounded-4">
             <div class=" d-flex align-items-center">
                 <i class="fa-brands fa-instagram fs-3"></i>
-                <a class="navbar-brand m-2" href="#">
+                <a class="navbar-brand m-2" href="index.html">
                     <stong>Instagram</stong>
                 </a>
             </div>
@@ -55,8 +58,8 @@
                                         </div>
                                         <button type="button" class="btn btn-light"><i
                                                 class="fa-solid fa-camera"></i></button>
-                                        <button type="button" class="btn btn-light"><i
-                                                class="fa-solid fa-location-dot"></i></button>
+                                        <button type="button" class="btn btn-light">
+                                            <i class="fa-solid fa-location-dot"></i></button>
 
 
 
@@ -67,7 +70,7 @@
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary "
                                         data-bs-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary btn-success">Publish</button>
+                                    <button type="button" class="btn btn-success">Publish</button>
                                 </div>
                             </div>
                         </div>
@@ -96,7 +99,7 @@
 
 
     <!-- cambio de vista -->
-    <div class="container rounded-top-4  d-flex justify-content-center fixed-top pt-5 bg-white">
+    <div class="container d-flex justify-content-center bg-white sticky-top w-25 rounded-3 bg-opacity-75">
         <ul class=" nav" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
                 <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
@@ -115,12 +118,12 @@
 
     <!-- vista mosaico -->
 
-    
+
     <div class="tab-content" id="myTabContent">
         <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
             tabindex="0">
 
-            
+
 
             <div class="container">
 
@@ -128,31 +131,36 @@
 
 
                     <img src="/items/Captura de Pantalla 2024-09-05 a las 23.14.42.png"
-                        class="indeximg col-4 p-2 object-fit-cover" alt="" title="Light Twister" data-target-id="lightTwister">
+                        class="indeximg col-4 p-2 object-fit-cover" alt="" title="Light Twister"
+                        data-target-id="lightTwister">
 
 
 
                     <img src="/items/Captura de Pantalla 2024-09-05 a las 19.38.36.png"
-                        class="indeximg col-4 p-2 object-fit-cover" alt="" title="Acid Palms"data-target-id="acidPalms">
+                        class="indeximg col-4 p-2 object-fit-cover" alt="" title="Acid Palms"
+                        data-target-id="acidPalms">
 
 
 
-                    <img src="/items/Ilustración_sin_título 5.png" class=" indeximg col-4 p-2 object-fit-cover"
-                        alt="" title="Black cat dev" data-target-id="blackCatDev">
+                    <img src="/items/Ilustración_sin_título 5.png" class=" indeximg col-4 p-2 object-fit-cover" alt=""
+                        title="Black cat dev" data-target-id="blackCatDev">
 
 
 
-                    <img src="/items/janusz-jurek2-01.jpg" class="indeximg col-4 p-2 object-fit-cover" alt="" title="Hell Dog" data-target-id="hellDog">
-
-
-
-
-                    <img src="/items/janusz-jurek-papilarnie-3.jpg" class="indeximg col-4 p-2 object-fit-cover" title="Deep Connection"data-target-id="deepConnection">
+                    <img src="/items/janusz-jurek2-01.jpg" class="indeximg col-4 p-2 object-fit-cover" alt=""
+                        title="Hell Dog" data-target-id="hellDog">
 
 
 
 
-                    <img src="/items/jurek-papilarnie.jpg" class="indeximg col-4 p-2 object-fit-cover" title="Strange Body" data-target-id="strangeBody">
+                    <img src="/items/janusz-jurek-papilarnie-3.jpg" class="indeximg col-4 p-2 object-fit-cover"
+                        title="Deep Connection" data-target-id="deepConnection">
+
+
+
+
+                    <img src="/items/jurek-papilarnie.jpg" class="indeximg col-4 p-2 object-fit-cover"
+                        title="Strange Body" data-target-id="strangeBody">
 
 
 
@@ -162,12 +170,14 @@
 
 
                     <img src="/items/sunset_illustration-wallpaper-1920x1080.jpg"
-                        class="indeximg col-4 p-2 object-fit-cover" alt="" title="Digital Sunset" data-target-id="digitalSunset">
+                        class="indeximg col-4 p-2 object-fit-cover" alt="" title="Digital Sunset"
+                        data-target-id="digitalSunset">
 
 
 
                     <img src="/items/Captura de Pantalla 2024-09-05 a las 20.01.36.png"
-                        class="indeximg col-4 p-2 object-fit-cover" alt="" title="TD Visual2" data-target-id="tdVisual2">
+                        class="indeximg col-4 p-2 object-fit-cover" alt="" title="TD Visual2"
+                        data-target-id="tdVisual2">
 
                 </div>
             </div>
@@ -178,14 +188,14 @@
 
         <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
 
-          
+
 
             <!-- imagen1 -->
 
             <div class="container col12">
                 <div class="container col-lg-6 col-sm-12">
                     <div class="py-3">
-                        <div class="card mx-auto"id="lightTwister">
+                        <div class="card mx-auto" id="lightTwister">
                             <div class="card-body d-flex justify-content-between">
                                 <h3 class="card-title">Light Twister</h3>
                                 <p class="card-text">25/8</p>
@@ -210,7 +220,7 @@
                     <!-- imagen2 -->
 
                     <div class="py-3">
-                        <div class="card mx-auto"id="acidPalms">
+                        <div class="card mx-auto" id="acidPalms">
                             <div class="card-body d-flex justify-content-between">
                                 <h3 class="card-title">Acid Palms</h3>
                                 <p class="card-text">9/8</p>
@@ -281,7 +291,7 @@
                     <!-- imagen5 -->
 
                     <div class="py-3">
-                        <div class="card mx-auto"id="deepConnection">
+                        <div class="card mx-auto" id="deepConnection">
                             <div class="card-body d-flex justify-content-between">
                                 <h3 class="card-title">Deep connection </h3>
                                 <p class="card-text">1/6</p>
@@ -302,7 +312,7 @@
                     <!-- imagen6 -->
 
                     <div class="py-3">
-                        <div class="card mx-auto"id="strangeBody">
+                        <div class="card mx-auto" id="strangeBody">
                             <div class="card-body d-flex justify-content-between">
                                 <h3 class="card-title">Strange Body</h3>
                                 <p class="card-text">1/6</p>
@@ -322,12 +332,13 @@
                     <!-- imagen7 -->
 
                     <div class="py-3">
-                        <div class="card mx-auto"id="tdVisual">
+                        <div class="card mx-auto" id="tdVisual">
                             <div class="card-body d-flex justify-content-between">
                                 <h3 class="card-title">TD Visual 1</h3>
                                 <p class="card-text">1/6</p>
                             </div>
-                            <img src="items/Captura de Pantalla 2024-09-05 a las 20.03.23.png" class="card-img-top" alt="...">
+                            <img src="items/Captura de Pantalla 2024-09-05 a las 20.03.23.png" class="card-img-top"
+                                alt="...">
 
                             <div class="card-body">
                                 <p class="card-title"><i class="fa-solid fa-heart m-2"></i><strong>1.246 me
@@ -342,7 +353,7 @@
                     <!-- imagen8 -->
 
                     <div class="py-3">
-                        <div class="card mx-auto"id="digitalSunset">
+                        <div class="card mx-auto" id="digitalSunset">
                             <div class="card-body d-flex justify-content-between">
                                 <h3 class="card-title">Digital Sunset</h3>
                                 <p class="card-text">1/6</p>
@@ -362,12 +373,13 @@
                     <!-- imagen9 -->
 
                     <div class="py-3">
-                        <div class="card mx-auto"id="tdVisual2">
+                        <div class="card mx-auto" id="tdVisual2">
                             <div class="card-body d-flex justify-content-between">
                                 <h3 class="card-title">TD Visual 2</h3>
                                 <p class="card-text">1/6</p>
                             </div>
-                            <img src="items/Captura de Pantalla 2024-09-05 a las 20.01.36.png" class="card-img-top" alt="...">
+                            <img src="items/Captura de Pantalla 2024-09-05 a las 20.01.36.png" class="card-img-top"
+                                alt="...">
 
                             <div class="card-body">
                                 <p class="card-title"><i class="fa-solid fa-heart m-2"></i><strong>1.246 me
@@ -427,17 +439,17 @@
             document.addEventListener("DOMContentLoaded", function () {
                 const images = document.querySelectorAll('.indeximg'); // Seleccionar todas las imágenes del mosaico
                 const profileTabBtn = document.getElementById('profile-tab'); // Botón para cambiar a la vista de scroll
-        
+
                 images.forEach(image => {
                     image.addEventListener('click', function () {
                         // Cambiar a la vista de scroll
                         const targetId = this.getAttribute('data-target-id'); // Obtener el id del destino
                         const targetElement = document.getElementById(targetId); // Obtener el elemento en la vista de scroll
-        
+
                         // Activar la pestaña de la vista de scroll
                         const tab = new bootstrap.Tab(profileTabBtn);
                         tab.show();
-        
+
                         // Desplazar directamente a la imagen sin transición
                         setTimeout(() => {
                             targetElement.scrollIntoView();
@@ -446,7 +458,7 @@
                 });
             });
         </script>
-        
+
 </body>
 
 </html>
